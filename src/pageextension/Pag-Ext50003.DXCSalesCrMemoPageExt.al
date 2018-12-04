@@ -2,7 +2,7 @@ pageextension 50003 "DXCSalesCrMemoPageExt" extends "Sales Credit Memo" //MyTarg
 {
     layout
     {     
-        addbefore("Work Description")    
+        addafter("Applies-to ID")    
         {
             field("Order Type"; "Order Type")
             {

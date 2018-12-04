@@ -2,7 +2,7 @@ pageextension 50004 "DXCPostedSalesShipPageExt" extends "Posted Sales Shipment" 
 {
     layout
     {     
-        addbefore("Work Description")  
+        addafter("Responsibility Center")  
         {
             field("Order Type"; "Order Type")
             {

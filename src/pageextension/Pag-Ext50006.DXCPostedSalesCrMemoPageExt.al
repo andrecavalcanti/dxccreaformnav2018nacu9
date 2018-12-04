@@ -2,7 +2,7 @@ pageextension 50006 "DXCPostedSalesCrMemoPageExt" extends "Posted Sales Credit M
 {
     layout
     {     
-        addbefore("Work Description")   
+        addafter("No. Printed")   
         {
             field("Order Type"; "Order Type")
             {
