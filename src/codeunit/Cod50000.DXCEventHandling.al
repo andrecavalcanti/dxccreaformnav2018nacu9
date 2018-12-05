@@ -1,4 +1,4 @@
-codeunit 50002 "Creaform Event Handling 2"
+codeunit 50000 "DXCEventHandling"
 {
     // version EC1.02
 
