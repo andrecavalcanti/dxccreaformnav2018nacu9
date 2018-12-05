@@ -1,4 +1,4 @@
-codeunit 50000 "Creaform Event Handling"
+codeunit 50002 "Creaform Event Handling 2"
 {
     // version EC1.02
 
@@ -27,18 +27,6 @@ codeunit 50000 "Creaform Event Handling"
 
     local procedure "--CU5100918---"();
     begin
-    end;
-
-    /* [EventSubscriber(ObjectType::Codeunit, 5100918, 'OnBeforeConvertValueByTag', '', true, true)]
-    local procedure HandleBeforeConvertValueByTagOnDISConversionMgt(var SourceCodeTag : Code[20];var FldValue : Variant);
-    var
-        FirstDate : Date;
-        LastDate : Date;
-    begin
-
-        FirstDate := CALCDATE('<-CM>',TODAY);
-        LastDate := CALCDATE('<CM>',TODAY);
-        FldValue := STRSUBSTNO('%1..%2',FirstDate,LastDate);
-    end; */
+    end;    
 }
 
