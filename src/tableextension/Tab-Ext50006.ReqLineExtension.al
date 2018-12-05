@@ -1,4 +1,4 @@
-tableextension 50006 ReqLineExtension extends "Requisition Line" //MyTargetTableId
+tableextension 50006 "ReqLineExtension" extends "Requisition Line" //MyTargetTableId
 {
     fields
     {

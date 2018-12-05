@@ -1,4 +1,4 @@
-pageextension 50011 PagPlanWorksheetExtension extends "Planning Worksheet" //MyTargetPageId
+pageextension 50011 "PagPlanWorksheetExtension" extends "Planning Worksheet" //MyTargetPageId
 {
     layout
     {

@@ -1,4 +1,4 @@
-pageextension 50010 PagItemCardExtension extends "Item Card" //MyTargetPageId
+pageextension 50010 "PagItemCardExtension" extends "Item Card" //MyTargetPageId
 {
     layout
     {

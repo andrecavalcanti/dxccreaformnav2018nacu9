@@ -1,4 +1,4 @@
-tableextension 50007 DXCItemExtension extends Item //MyTargetTableId
+tableextension 50007 "DXCItemExtension" extends Item //MyTargetTableId
 {
     fields
     {
