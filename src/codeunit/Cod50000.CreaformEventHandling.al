@@ -29,7 +29,7 @@ codeunit 50000 "Creaform Event Handling"
     begin
     end;
 
-    [EventSubscriber(ObjectType::Codeunit, 5100918, 'OnBeforeConvertValueByTag', '', true, true)]
+    /* [EventSubscriber(ObjectType::Codeunit, 5100918, 'OnBeforeConvertValueByTag', '', true, true)]
     local procedure HandleBeforeConvertValueByTagOnDISConversionMgt(var SourceCodeTag : Code[20];var FldValue : Variant);
     var
         FirstDate : Date;
@@ -39,6 +39,6 @@ codeunit 50000 "Creaform Event Handling"
         FirstDate := CALCDATE('<-CM>',TODAY);
         LastDate := CALCDATE('<CM>',TODAY);
         FldValue := STRSUBSTNO('%1..%2',FirstDate,LastDate);
-    end;
+    end; */
 }
 
